@@ -1,0 +1,36 @@
+.parent{
+    height: 700px;
+    border: 2px solid green;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */  
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    align-items: center
+    /* justify-content: center; */
+}
+
+.style{
+    height: 150px;
+    width: 150px;
+}
+
+#one{
+    background-color: aqua;
+}
+
+#two{
+    background-color: rgb(255, 0, 0);
+}
+
+#three{
+    background-color: rgb(255, 0, 204);
+}
+
+#four{
+    background-color: rgb(217, 255, 0);
+}

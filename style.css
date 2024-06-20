@@ -1,0 +1,19 @@
+div{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    transition: 2s;
+}
+
+div:hover{
+    background-color: palevioletred;
+    border-radius: 50%;
+}
+
+li:nth-of-type(odd){
+    background-color: red;
+}
+
+li:hover{
+    background-color: green;
+}    

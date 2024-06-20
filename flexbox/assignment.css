@@ -1,0 +1,24 @@
+.grandparent{
+    border: 2px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+.parent{
+    color: orangered;
+}
+
+.style{
+    color: gray;
+    display: flex;
+
+}
+.child > button{
+    background-color: orangered;
+}
+button{
+    color: white;
+}

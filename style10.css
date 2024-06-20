@@ -1,0 +1,14 @@
+.container{
+    height: 2000px;
+    padding: 200px;
+    border: 10px solid green;
+}
+
+.box{
+    padding: 20px; 
+    position: sticky;
+    top: 30px;
+    left: 30px;
+    border: 2px solid red;
+    text-align: center;
+}

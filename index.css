@@ -1,3 +1,60 @@
+/* Name Selector */
 h1{
+    background-color: red;
+
+}
+/* Id Selector */
+#one{
+    background-color: blue;
+}
+/* Class Selector */
+.two{
+    background-color: blueviolet;
+}
+/* Attributes selector */
+
+/* Starting */
+a[href^="http"]{
     background-color: brown;
+}
+
+/* Ending */
+a[href$="com"]{
+    background-color: brown;
+}
+/* 
+Middle */
+a[href*="facebook"]{
+    background-color: rgb(42, 165, 97);
+}
+
+/* DescendantCombination */
+div p {
+    background-color: red;
+}
+
+span p {
+    background-color: pink;
+}
+
+
+
+ol > li {
+    border: 2px solid green;
+}
+
+ol > li > ul > li {
+    border: 2px solid green;
+}
+
+div{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    transition: 2s;
+}
+
+div :hover{
+    background-color: green;
+    border-radius: 50%;
 }
