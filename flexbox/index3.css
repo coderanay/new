@@ -1,0 +1,35 @@
+*{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0;
+}
+.nav{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 20px;
+}
+#child{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+#one{
+    color: orangered;
+    text-align: left;
+}
+#two{
+    background-color: orangered;
+    color: aliceblue;
+}
+
+@media(max-width:480px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}

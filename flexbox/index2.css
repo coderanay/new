@@ -1,0 +1,29 @@
+/* div{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+
+} */
+
+/* @media(max-width: 400px) {
+    body{
+        background-color: aqua;
+    }
+} */
+
+/* @media(max-width: 400px) {
+    div{
+        background-color: aqua;
+        border-radius: 50%;
+    }
+} */
+
+/* flex-shrink, flex-basics max-width*/
+
+.nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+

@@ -1,0 +1,32 @@
+.parent{
+    height: 700px;
+    border: 2px solid green;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.one{
+    height: 150px;
+    width: 150px;
+}
+
+#one{
+    background-color: aqua;
+}
+
+#two{
+    background-color: rgb(255, 0, 238);
+    flex-shrink: 2;
+
+}
+
+#three{
+    background-color: rgb(255, 0, 47);
+    flex-shrink: 3;
+}
+
+#four{
+    background-color: rgb(47, 0, 255);
+}

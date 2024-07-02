@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    transition: 3s;
+    background-color: red;
+}
+
+div:hover {
+    /* transform: translateX(200px); */
+    /* transform: translateY(200px); */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: scaleY(2); */
+    transform: scale(2); 
+}

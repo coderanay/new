@@ -16,7 +16,7 @@ div:nth-of-type(2) {
     top: 50px; */
     position: absolute;
     top: 5px;
-}
+} 
 
 div:nth-of-type(3) {
     background-color: blue;
