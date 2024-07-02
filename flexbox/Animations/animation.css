@@ -1,0 +1,31 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: rebeccapurple;
+    animation-name: new;
+    animation-duration: 4s;
+    animation-iteration-count: 4s;
+    animation-direction: alternate;
+    animation-delay: 3s;
+}
+
+/* div:hover {
+} */
+
+@keyframes new {
+    0%{
+        background-color: aqua;
+        border-radius: 50%;
+    }
+    25%{
+        background-color: antiquewhite;
+    }
+    50%{
+        height: 100vh;
+        width: 100vw;
+        background-color: blue;
+    }
+    100%{
+        background-color: gold;
+    }
+}

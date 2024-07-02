@@ -1,0 +1,23 @@
+.ball{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 99999999%;
+    background: linear-gradient(red,blue);
+    border: 2px solid black;
+    animation: 900ms ease-in-out 0s infinite alternate none running bounce;
+    animation-name: new;
+    animation-duration: 2s;
+    transition-duration: 2s;
+}
+
+@keyframes new {
+    0%{
+        transform: translateY(180deg);
+    }
+    100%{
+        transform: translateY(85vh) rotate(360deg);
+        
+    }
+    
+}

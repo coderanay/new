@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#parent{
+    background-color: rgb(22, 138, 33);
+    height: 100px;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animation {
+    0%{
+        transform: translateY(-80px);
+        transition-timing-function: ease-in;
+    }
+}
+
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: space-between;
+    height: 50px;
+    background-color: rgb(36, 34, 34);
+    color: white;
+    font-size:large;
+}
+
+.child2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: space-between;
+    height: 50px;
+    background-color: rgb(36, 34, 34);
+    color: white;
+    font-size:large;
+    padding: 15px;
+}
+.property:hover{
+    background-color: rgb(208, 202, 202);
+}
+.child1{
+    width: 80%;
+    text-align: justify;
+    display: inline-block;
+}
+
+.child1:after {
+    content: '';
+    display: inline-block;
+    width: 80%;
+}
+
+
+.property{
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+}
+
+.one{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: left;
+    font-size: 16px; 
+
+}
+
+.two{
+    display: inline-block ;
+    left: 650px;
+    text-align: right;
+    font-size: 16px; 
+}
+
+img{
+    border: 3px solid black;
+    border-radius: 20%;
+}
